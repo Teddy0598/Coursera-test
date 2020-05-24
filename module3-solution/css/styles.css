@@ -1,0 +1,68 @@
+html{
+	scroll-behavior: smooth;
+}
+/*Header section*/
+#header-nav{
+	background-color: #999;
+	border:0;
+	border-top: 2px solid #000;
+	border-bottom: 1px solid #000;
+	border-radius: 0;
+	text-decoration:none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#000;
+	text-align: center;
+}
+#nav-list a:hover{
+	background-color:#b7ae40;
+}
+.navbar-header>#brand-name{
+	font-size: 2.5em;
+	color: #000;
+	text-decoration-line: none;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: #cce42c;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border:1px solid #000;
+}
+.container .navbar-collapse ul {
+    background-color: #fff;
+    margin-top: -10px;
+    margin-bottom: -5px;
+}
+.container .navbar-collapse li{  
+    border-top: 1px solid #000;
+}
+.container .navbar-collapse li a {
+    color: #000;
+    font-size: 1.2em;
+}
+
+/*main content section */
+#sub-heading {
+    font-size: 2em;
+    color: #000;
+}
+#content-box {
+    background-color: #999;
+    color: #000;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 25px;
+    width:100%;
+}
+.navbar-collapse {
+	border-top:0;
+}
+.navbar-collapse.in{
+	overflow-y: hidden;
+}
+h2{
+	margin-top: -10px;
+}
